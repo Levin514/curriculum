@@ -13,7 +13,18 @@
     <header> 
         <h1 align = "center" > Hoja de vida </h1>
     </header>
+    
     <main>
+        
+        <section>
+            <h2 align = "center" > Perfil </h2>
+            <p style="text-align: center;">  
+                <img src="https://avatars.githubusercontent.com/u/152341877?v=4" width="300" height="300">
+            </p>
+
+        </section>
+        
+        
         <section> 
             <h2> Datos personales </h2>
             <p>
@@ -27,6 +38,24 @@
             <p>
                 <h3> Correo electrónico: </h3> levezmor@espol.edu.ec
             </p>
+            
+            <p>
+                <h3> Sitio Web </h3> Visita mi sitio web: <a href="https://levin514.github.io/Levin514/" >https://Levin514/</a>
+            </p>
+        </section>
+        
+        <section>
+            <h2>Proyectos destacados</h2>
+            <ol>
+                <li>Desarrollo de una aplicación web para gestión de tareas</li>
+                <li>Implementación de un sistema de control de inventario en Python</li>
+                <li>Participación en hackathon universitario (ESPOL 2024)</li>
+            </ol>
+        </section>
+        
+        <section>
+            <h2>Demo de proyecto</h2>
+                  <iframe width="400" height="225" src="https://www.youtube.com/embed/sMaz5UU9xl0?list=PL9SnRnlzoyX3oUb5UGzhVeZCKxhcypfKu" title="01. Demostración por inducción: Suma de naturales (Suma Gaussiana)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
         
         <section>  
@@ -36,13 +65,44 @@
                 <h3> Institución: </h3> ESPOL
             </p>
         </section>
+
+        <section>
+            <h2> Ubicación </h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.9649649649649!2d-79.967088!3d-2.147934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13c1b1b1b1b1%3A0x1b1b1b1b1b1b1b1b!2sEscuela%20Superior%20Politécnica%20del%20Litoral!5e0!3m2!1ses!2sec!4v1684523456789!5m2!1ses!2sec" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
         
         <section>  
             <h2> Habilidades </h2>
             <p>
-                <h3> Lenguajes de programación: </h3> Python, Java, C
+                <h3> Lenguajes de programación: </h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C</li>
+                </ul>
                 <h3> Herramientas: </h3> Git
             </p>
+            <h3>Idiomas y nivel de dominio:</h3>
+            <table style="border-collapse: collapse; width: 60%;">
+                <tr>
+                    <th></th>
+                    <th>Español</th>
+                    <th>Inglés</th>
+                    <th>Japonés</th>
+                </tr>
+                <tr>
+                    <th>Nivel</th>
+                    <td>Nativo</td>
+                    <td>Avanzado</td>
+                    <td>Básico</td>
+                </tr>
+                <tr>
+                    <th>Frecuencia de uso</th>
+                    <td>Diario</td>
+                    <td>Semanal</td>
+                    <td>Ocasional</td>
+                </tr>
+            </table>
         </section>
 
         <section>  
@@ -52,6 +112,60 @@
                 <h3> Institución: </h3> ESPOL
                 <h3> Fecha: </h3> 14/05/2024
             </p>
+        </section>
+
+        <section>
+            <h2>Referencias</h2>
+            <blockquote>
+                <em>"Siempre busca la manera de trabajar. Es alguien que no descansa hasta solucionar los problemas"</em>
+                <p><strong>Kevin Salazar</strong><br>
+                Estudiante de ESPOL<br>
+                Trabajó con Levin en el desarrollo de una plataforma web, destacando su responsabilidad y liderazgo.</p>
+            </blockquote>
+            <blockquote>
+                <em>"Su capacidad de análisis y resolución de problemas es admirable."</em>
+                <p><strong>Carlos Pérez</strong><br>
+                Jefe de Desarrollo en SoftDev<br>
+                Colaboró con Levin en proyectos de software, resaltando su creatividad y eficiencia.</p>
+            </blockquote>
+            <blockquote>
+                <em>"Demostró gran iniciativa y habilidades técnicas en cada reto presentado."</em>
+                <p><strong>Ana Torres</strong><br>
+                Líder de Innovación en InnoTech<br>
+                Supervisó a Levin en prácticas profesionales, valorando su proactividad y conocimientos técnicos.</p>
+            </blockquote>
+        </section>
+
+        <section>
+            <h2>Contacto</h2>
+            <fieldset>
+                <legend>¿Cómo desea ser contactado?</legend>
+                <label>
+                    <input type="radio" name="preferencia_contacto" value="email" checked> Email
+                </label>
+                <label>
+                    <input type="radio" name="preferencia_contacto" value="telefono"> Teléfono
+                </label>
+            </fieldset>
+            <form action="mailto:levezmor@espol.edu.ec" method="post" enctype="text/plain">
+                <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="motivo">Motivo de contacto:</label>
+                <select id="motivo" name="motivo" required>
+                    <option value="consulta">Consulta</option>
+                    <option value="propuesta">Propuesta</option>
+                    <option value="trabajo">Oportunidad laboral</option>
+                    <option value="otro">Otro</option>
+                </select>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+                </p>
+            </form>
         </section>
     </main>
 </body>
