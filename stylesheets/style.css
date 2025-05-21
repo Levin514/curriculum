@@ -30,6 +30,13 @@ nav > ul {
   padding-left: 0;
 }
 
+section {
+  border: 0.2pt solid #cedddd;
+  margin: 4px 2px 8px 2px;
+  margin-bottom: 1.2rem;
+  padding: 1.5% 0.8%;
+}
+
 
 
 
