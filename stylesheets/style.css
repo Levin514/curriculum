@@ -1,0 +1,35 @@
+/* Aplica la fuente a todos los elementos */
+* {
+  font-family: Forum, "Work Sans", Oxygen, sans-serif;
+}
+
+/* Estilo para el título "hoja de vida" */
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: Forum;
+}
+
+#photo {
+  width: 8vw;
+  height: auto;
+}
+
+.subtitle {
+  color: #482646;
+  text-transform: uppercase;
+}
+
+footer p {
+  text-align: right;
+  font-style: italic;
+}
+
+nav > ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+
+
+

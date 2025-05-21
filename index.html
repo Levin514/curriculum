@@ -6,27 +6,41 @@
     <meta name="keywords" content="CV, Curriculum, Nombre, Profesión">
     <meta name="description" content="Este es el CV de Levin Morán.">
     <meta name="author" content="Levin Morán">
-    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="./stylesheets/style.css" type="text/css">
+    <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Forum">
     <title>CV de Levin Morán</title>
 </head>
 <body>
     <header> 
-        <h1 align = "center" > Hoja de vida </h1>
+        <h1> Hoja de vida </h1>
     </header>
     
     <main>
-        
-        <section>
-            <h2 align = "center" > Perfil </h2>
-            <p style="text-align: center;">  
-                <img src="https://avatars.githubusercontent.com/u/152341877?v=4" width="300" height="300">
-            </p>
 
+        <nav>
+            <ul>
+                <li><a href="#perfil">Perfil</a></li>
+                <li><a href="#datos-personales">Datos personales</a></li>
+                <li><a href="#informacion-contacto">Información de contacto</a></li>
+                <li><a href="#proyectos-destacados">Proyectos destacados</a></li>
+                <li><a href="#demo-proyecto">Demo de proyecto</a></li>
+                <li><a href="#formacion-academica">Formación académmica</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#reconocimientos">Reconocimientos</a></li>
+                <li><a href="#referencias">Referencias</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h2 id="perfil" class="subtitle" align="center"> Perfil </h2>
+            <img id="photo" src="https://avatars.githubusercontent.com/u/152341877?v=4" width="300" height="300">
         </section>
-        
-        
+
         <section> 
-            <h2> Datos personales </h2>
+            <h2 id="datos-personales" class="subtitle"> Datos personales </h2>
             <p>
                 <h3> Nombre y Apellido: </h3> Levin Morán
                 <h3> Fecha de nacimiento: </h3> 25/06/2004
@@ -34,7 +48,7 @@
         </section>
 
         <section> 
-            <h2> Información de contacto </h2>
+            <h2 id="informacion-contacto" class="subtitle"> Información de contacto </h2>
             <p>
                 <h3> Correo electrónico: </h3> levezmor@espol.edu.ec
             </p>
@@ -45,7 +59,7 @@
         </section>
         
         <section>
-            <h2>Proyectos destacados</h2>
+            <h2 id="proyectos-destacados" class="subtitle">Proyectos destacados</h2>
             <ol>
                 <li>Desarrollo de una aplicación web para gestión de tareas</li>
                 <li>Implementación de un sistema de control de inventario en Python</li>
@@ -54,12 +68,12 @@
         </section>
         
         <section>
-            <h2>Demo de proyecto</h2>
+            <h2 id="demo-proyecto" class="subtitle">Demo de proyecto</h2>
                   <iframe width="400" height="225" src="https://www.youtube.com/embed/sMaz5UU9xl0?list=PL9SnRnlzoyX3oUb5UGzhVeZCKxhcypfKu" title="01. Demostración por inducción: Suma de naturales (Suma Gaussiana)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
         
         <section>  
-            <h2> Formación académica </h2>
+            <h2 id="formacion-academica" class="subtitle"> Formación académica </h2>
             <p>
                 <h3> Título: </h3> Ingeniero en Ciencias de la Computación
                 <h3> Institución: </h3> ESPOL
@@ -67,12 +81,12 @@
         </section>
 
         <section>
-            <h2> Ubicación </h2>
+            <h2 id="ubicacion" class="subtitle"> Ubicación </h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.9649649649649!2d-79.967088!3d-2.147934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13c1b1b1b1b1%3A0x1b1b1b1b1b1b1b1b!2sEscuela%20Superior%20Politécnica%20del%20Litoral!5e0!3m2!1ses!2sec!4v1684523456789!5m2!1ses!2sec" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
         
         <section>  
-            <h2> Habilidades </h2>
+            <h2 id="habilidades" class="subtitle"> Habilidades </h2>
             <p>
                 <h3> Lenguajes de programación: </h3>
                 <ul>
@@ -106,7 +120,7 @@
         </section>
 
         <section>  
-            <h2> Reconocimientos </h2>
+            <h2 id="reconocimientos" class="subtitle"> Reconocimientos </h2>
             <p>
                 <h3> Certificado: </h3> Reconocimiento a la excelencia académica
                 <h3> Institución: </h3> ESPOL
@@ -115,7 +129,7 @@
         </section>
 
         <section>
-            <h2>Referencias</h2>
+            <h2 id="referencias">Referencias</h2>
             <article>
                 <blockquote>
                     <em>"Siempre busca la manera de trabajar. Es alguien que no descansa hasta solucionar los problemas"</em>
@@ -137,7 +151,7 @@
         </section>
 
         <section>
-            <h2>Contacto</h2>
+            <h2 id="contacto">Contacto</h2>
             <fieldset>
                 <legend>¿Cómo desea ser contactado?</legend>
                 <label>
