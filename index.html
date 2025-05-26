@@ -25,7 +25,7 @@
                 <li><a href="#informacion-contacto">Información de contacto</a></li>
                 <li><a href="#proyectos-destacados">Proyectos destacados</a></li>
                 <li><a href="#demo-proyecto">Demo de proyecto</a></li>
-                <li><a href="#formacion-academica">Formación académmica</a></li>
+                <li><a href="#formacion-academica">Formación académica</a></li>
                 <li><a href="#ubicacion">Ubicación</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#reconocimientos">Reconocimientos</a></li>
@@ -128,8 +128,8 @@
             </p>
         </section>
 
-        <section>
-            <h2 id="referencias">Referencias</h2>
+        <section id="referencias">
+            <h2>Referencias</h2>
             <article>
                 <blockquote>
                     <em>"Siempre busca la manera de trabajar. Es alguien que no descansa hasta solucionar los problemas"</em>
@@ -152,7 +152,9 @@
 
         <section>
             <h2 id="contacto">Contacto</h2>
-            <fieldset>
+            
+            <form action="mailto:levezmor@espol.edu.ec" method="post" enctype="text/plain">
+                <fieldset>
                 <legend>¿Cómo desea ser contactado?</legend>
                 <label>
                     <input type="radio" name="preferencia_contacto" value="email" checked> Email
@@ -161,8 +163,6 @@
                     <input type="radio" name="preferencia_contacto" value="telefono"> Teléfono
                 </label>
             </fieldset>
-            <form action="mailto:levezmor@espol.edu.ec" method="post" enctype="text/plain">
-                <p>
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
                 <label for="email">Correo electrónico:</label>
@@ -178,7 +178,6 @@
                 <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
                 <input type="submit" value="Enviar">
                 <input type="reset" value="Limpiar">
-                </p>
             </form>
         </section>
     </main>
