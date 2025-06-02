@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #FFD1C1; /* Color salmón pastel*/
+  background-color: #dce1f0; /* Color salmón pastel*/
 }
 
 /* Estilo para el título "hoja de vida" */
@@ -141,7 +141,63 @@ section > form {
   color: #482646;
 }
 
+#btn-inicio {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #482646;
+  color: #fff;
+  border: none;
+  font-size: 2.5rem; /* Aumenta el tamaño del texto/ícono */
+  box-shadow: 0 2px 8px rgba(72, 38, 70, 0.18);
+  cursor: pointer;
+  z-index: 1000;
+  opacity: 0.85;
+  transition: opacity 0.2s, background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+#btn-inicio:hover {
+  opacity: 1;
+  background: #6d3a7b;
+}
+
+table {
+  width: 80%;
+  margin: 1.5rem auto;
+  border-collapse: collapse;
+  background: #f6f6f6;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 6px rgba(72, 38, 70, 0.08);
+}
+
+th, td {
+  padding: 0.7rem 1.2rem;
+  text-align: center;
+  border-bottom: 1px solid #dce1f0;
+  font-size: 1rem;
+}
+
+th {
+  background: #482646;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:nth-child(even) {
+  background: #ede7f6;
+}
 
 @media (max-width: 900px) {
   #referencias > article {
